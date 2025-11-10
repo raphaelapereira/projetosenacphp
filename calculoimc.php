@@ -1,10 +1,5 @@
 <?php
-// ---------------------------------------------------------
-// Arquivo: calculoimc.php
-// Objetivo: Classificar o valor de IMC informado pelo usuário
-// ---------------------------------------------------------
-
-// Função para classificar o IMC recebido
+// Função para classificar o IMC
 function classificarIMC($imc) {
     // Array associativo contendo as faixas de IMC e suas classificações
     $faixas = [
